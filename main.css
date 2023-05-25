@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+body {
+    background: url("img/Cubes_Layer\ 4.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.window-shadow{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background: url("img/Cubes_Layer\ 2.png") no-repeat;
+    flex-direction: column;
+}
+.sity-row {
+     display: flex;
+     flex-direction: row;
+}
+.sity-block {
+  height: 205px;
+  width: 205px;
+  margin-right: -2px;
+  display: flex;
+
+}
+
+.chicago {
+    background-image: url("img/chicago_back.png");
+} 
+.seattle {
+    background-image: url("img/seattle_back.png");
+}
+.brooklyn {
+    background-image: url("img/brooklyn_back.png");
+}
+.portland {
+    background-image: url("img/portland_back.png");
+}
+.san-jose {
+    background-image: url("img/san_jose.png");
+}
+.week {
+    background-image: url("img/week_back_1.png");
+    display: flex;
+    flex-direction: column;
+}
+.wether-conteiner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 8px;
+    margin: auto;
+}
+.wether-conteiner img {
+    margin-bottom: 15px;
+    width: 90px;
+    height: 76px;
+    margin: auto;
+}
+.
+.week-days {
+    display: flex;
+    flex-direction: row;
+}
